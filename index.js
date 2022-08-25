@@ -3,7 +3,7 @@ let valorEntero = 0
 
 while (valor != "esc" && valor != "ESC") {
     valorEntero = parseInt(valor)
-    alert("Se mostrará en consola la tabla del número ingresado")
+    alert(`Se mostrará en consola la tabla del número ${valor}`)
     console.log(`\nLa tabla del ${valor} es la siguiente:`)
     for (let i = 0; i <= 10; i++) {
         console.log(`${valor} x ${i} = ${valorEntero * i}`)
